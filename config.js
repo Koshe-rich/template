@@ -19,6 +19,7 @@ module.exports = {
 		imagemin: [ 'png', 'jpg' ],
 		sourcemaps: [ 'js', 'css' ],
 		autoprefixer: [ 'last 3 versions'],
+		globalStyles: [ 'app/blocks/develop/app/base/variables.css', 'app/blocks/develop/app/base/mixins.css' ],
 	},
 
 	autoCreate: {
