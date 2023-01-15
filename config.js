@@ -56,7 +56,7 @@ module.exports = {
 
 	addContent: {
 		page: `extends ../blocks/layout\n\nblock data\n\t-\n\t\tconst page = {\n\n\t\t\tpath: '[name]',\n\t\t\ttitle: '',\n\t\t\tdescription: '',\n\t\t\tattrs: []\n\n\t\t};\n\nblock content\n\n\n\t// GAP:Header \n\t+header\n\n`,
-		css: '//.[name]',
+		css: '.[name]{}',
 	},
 
 }
