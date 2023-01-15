@@ -23,10 +23,10 @@ module.exports = {
 	},
 
 	autoCreate: {
-		onlyOnWatch: true,
-		files: [ '.css' ],
-		levels: [ 'develop' ],
-		ignoreNodes: [ 'symbol', /_no_js/i ],
+		onlyOnWatch: true, // создаем файлы только во время watch'а
+		folders: [ 'assets' ], // у новых блоков сразу будет создана папка assets
+		files: [ '.css', '.js' ], // у новых сущностей будет стиль и скрипт
+		levels: [ 'develop' ], // новые блоки создаются только на уровне develop
 	},
 
 	dist: {
